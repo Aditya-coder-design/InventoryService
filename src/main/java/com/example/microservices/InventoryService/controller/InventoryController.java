@@ -22,6 +22,7 @@ public class InventoryController {
 
     @PostMapping("/addItem")
     public void addItem(@RequestBody StockDto stockDto) {
+        //adding comment to clarify that this method adds an item to the inventory
         inventoryService.addItem(stockDto.getName(), stockDto.getQuantity(), stockDto.getPrice());
     }
 }
