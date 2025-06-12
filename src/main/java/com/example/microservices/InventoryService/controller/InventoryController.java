@@ -23,6 +23,9 @@ public class InventoryController {
     @PostMapping("/addItem")
     public void addItem(@RequestBody StockDto stockDto) {
         //adding comment to clarify that this method adds an item to the inventory
+
+
+        // changin the branch to feature branch and just adding the comments here and there
         inventoryService.addItem(stockDto.getName(), stockDto.getQuantity(), stockDto.getPrice());
     }
 }

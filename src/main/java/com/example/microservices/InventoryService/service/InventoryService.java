@@ -35,7 +35,7 @@ public class InventoryService {
             return List.of(); // Return an empty list in case of an error
         }
 
-
+        // changing the branch to feature branch and just adding the comments here and there
         return   allItems.stream()
                        .map(item -> new StockDto(item.getItemName(), item.getQuantity(), item.getPrice()))
                        .collect(Collectors.toList());
