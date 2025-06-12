@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 @Table(name = "product_inventory")
 public class ItemStock {
 
-    // learning revert
+    // Learning git stash
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(
