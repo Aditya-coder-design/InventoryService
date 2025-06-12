@@ -20,6 +20,8 @@ import java.time.LocalDateTime;
 @Table(name = "product_inventory")
 public class ItemStock {
     // changes for second feature branch
+
+    // second commit for same branch
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(
