@@ -37,7 +37,7 @@ public class ItemStock {
 
     @Column(name = "price", nullable = false)
     private BigDecimal price;
-
+    // changin the branch to feature branch and just adding the comments here and there
 
     @Column(name = "last_updated", nullable = false)
     @UpdateTimestamp
