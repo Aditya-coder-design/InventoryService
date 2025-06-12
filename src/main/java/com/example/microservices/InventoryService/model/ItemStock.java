@@ -39,6 +39,8 @@ public class ItemStock {
     private BigDecimal price;
     // changin the branch to feature branch and just adding the comments here and there
 
+    // Changing after the review to use LocalDateTime for better date handling for merging
+
     @Column(name = "last_updated", nullable = false)
     @UpdateTimestamp
     private LocalDateTime lastUpdated;
