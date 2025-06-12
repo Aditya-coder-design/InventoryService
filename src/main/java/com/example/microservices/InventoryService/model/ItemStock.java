@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "product_inventory")
 public class ItemStock {
-
+    // changes for second feature branch
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(
